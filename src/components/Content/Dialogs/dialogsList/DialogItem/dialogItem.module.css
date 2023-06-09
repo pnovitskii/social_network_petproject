@@ -1,0 +1,38 @@
+.dialogItem {
+    height: 78.57px;
+    background: white;
+    display: grid;
+    grid-template-columns: 4fr 13fr;
+}
+.dialogItem:hover {
+    filter: brightness(95%);
+}
+.avatar {
+    width: 78.57px;
+    height: 78.57px;
+    margin-left: 3px;
+}
+.avatar img {
+    width: 78.57px;
+    height: 78.57px;
+}
+.name {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 20px;
+    text-align:center;
+    width:fit-content;
+    vertical-align:middle;
+    height: fit-content;
+}
+.navlink a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-family: Calibri;
+    /* font-family: "Open Sans", sans-serif; */
+}

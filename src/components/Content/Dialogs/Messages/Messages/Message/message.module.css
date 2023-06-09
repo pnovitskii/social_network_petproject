@@ -1,0 +1,21 @@
+.message {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    /* margin-bottom: 15px; */
+    /* margin-left: 10px; */
+    background-color: rgb(78 157 217);
+    /* background-color: black; */
+}
+.text {
+    /* margin-left: 8px; */
+    /* margin-right: 8px; */
+    padding: 8px;
+    /* margin-top: 15px; */
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.5px;
+}

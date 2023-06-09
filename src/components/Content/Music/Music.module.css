@@ -1,0 +1,11 @@
+.logo {
+    width: 210px;
+    margin: 8px;
+    
+  }
+
+  .header {
+    grid-area: h;
+    background-color: azure; /*cadetblue;*/
+    width: 1500px;
+  }

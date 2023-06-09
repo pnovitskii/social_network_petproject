@@ -1,0 +1,101 @@
+.users_wrapper {
+    margin-top: 30px;
+}
+
+.item {
+    background: white;
+    max-width: 350px;
+
+    border-radius: 15px;
+    /* -webkit-box-shadow: 0px 0px 35px -6px rgba(0, 0, 0, 0.79);
+    box-shadow: 0px 0px 35px -6px rgba(0, 0, 0, 0.79); */
+
+    display: grid;
+    grid-template-columns: 6fr 15fr 3fr;
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.center {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.item .picture {
+    /* background-color: burlywood; */
+    border-radius: 55px;
+    height: 60px;
+    width: 60px;
+}
+
+.item .picture img {
+    /* background-color: burlywood; */
+    border-radius: 55px;
+    height: 60px;
+    width: 60px;
+}
+
+.item .name {
+    font-size: 21.1px;
+    font-weight: 400;
+}
+
+.item .status {
+    margin-top: 4px;
+    font-weight: 300;
+    font-size: 17px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.item .button {
+    background: lightskyblue;
+    border-radius: 15px;
+    width: 65.69px;
+    padding: 17.6px;
+    text-align: center;
+    height: fit-content;
+    user-select: none;
+    cursor: pointer;
+}
+
+.item .button:hover {
+    background-color: rgb(147, 210, 248);
+}
+.selectedPageButton {
+    background-color: white;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    -webkit-box-shadow: 0px 0px 35px -6px rgba(0, 0, 0, 0.79);
+    box-shadow: 0px 0px 35px -6px rgba(0, 0, 0, 0.79);
+    user-select: none;
+    font-weight: bold;
+}
+.selectedPageButton:hover {
+    background-color: lightskyblue;
+}
+.pageButton {
+    background-color: white;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    -webkit-box-shadow: 0px 0px 35px -6px rgba(0, 0, 0, 0.79);
+    box-shadow: 0px 0px 35px -6px rgba(0, 0, 0, 0.79);
+    user-select: none;
+}
+.pageButton:hover {
+    background-color: lightskyblue;
+}

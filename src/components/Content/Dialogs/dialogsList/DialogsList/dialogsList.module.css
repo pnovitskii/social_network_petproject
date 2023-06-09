@@ -1,0 +1,69 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2.5fr 12fr;
+    /* height:580px; */
+    margin-top: 2.3%;
+    margin-bottom: 2.3%;
+    /* height:100%; */
+    height: 80vh;
+    /* border: 1px solid black; */
+    /* margin-left: 15px; */
+    /* margin-right: 150px; */
+}
+
+.dialogsList {
+    /* border: 1px solid white; */
+    /* background: white; */
+    /* padding: 5px; */
+    border-radius: 20px;
+    margin-right: 15px;
+    /* margin-top: 30px; */
+    /* margin-left: 15px; */
+    -webkit-box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.79); 
+    box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.79);
+    /* overflow-y:auto; */
+    /* height:600px; */
+    /* height: 52.5vh; */
+    height: 76vh;
+}
+.items {
+    /* overflow-y:visible; */
+    overflow-y: scroll;
+    /* scroll-behavior: smooth; */
+    background-color: white;
+    height: 100%;
+}
+.dialogMessages {
+    /* border: 1px solid white; */
+    background: white;
+    /* padding: 10px; */
+    border-radius: 20px;
+    /* margin-top: 30px; */
+    
+    margin-left: 5px;
+    -webkit-box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.79); 
+    box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.79);
+    height: 80vh;
+}
+
+
+
+
+
+.cap {
+    /* border: 1px solid black; */
+    border-radius: 20px 20px 0px 0px;
+    height: 2vh;
+    /* text-align: center; */
+    
+    background: white;
+}
+.cap .text {
+    text-align: center;
+    
+}
+.bot {
+    background: white;
+    height: 2vh;
+    border-radius: 0px 0px 20px 20px;
+}
